@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    font-family: 'Montserrat', sans-serif;
+}
+.title{
+    font-size: 30px;
+    color: #65daff;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.text{
+    font-size: 20px;
+    color: white;
+}
+.header {
+    padding: 10px 0;
+    box-shadow: 0 10px 15px rgba(168, 168, 168, 0.774);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #222;
+}
+.container {
+
+}
+.logo {
+    color: white;
+    text-decoration: none;
+}
+.Logo_img {
+
+}
+.nav {
+    float: right;
+}
+.nav_item {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.banner {
+    height: 100vh;
+    background: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg) center/cover no-repeat;
+    position: relative;
+}
+.banner_content {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+    padding: 0 15px ;
+}
+.banner_title {
+    margin-bottom: 30px;
+    color: #4e4e4e;
+    font-size: 60px;
+}
+.banner_text {
+    font-size: 40px;
+    color: #4e4e4e;
+    margin-bottom: 30px;
+}
+.banner_btn {
+    background-image: linear-gradient(45deg, #66dcfc,#70fdcd);
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 30px 300px 30px 20px;
+}
+.about {
+    text-align: center;
+    padding: 50px 0;
+}
+.about-card {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    color: aqua;
+    vertical-align: top;
+    
+}
+.about-card_img {
+    margin: 15px 0;
+
+}
+.about-card_title {
+
+}
+.games {
+
+}
+.games_container {
+    box-shadow: 0 10px 20px black;
+}
+.games_box {
+
+}
+.games_content {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+.games_title {
+
+    color: aqua;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.games_hr {
+    background-color: aquamarine;
+    height: 4px;
+    border: none;
+    width: 150px;
+    margin-bottom: 15px;
+}
+.games_text {
+
+}
+.games_img {
+    display: inline-block;
+    width: 49%;
+}
+.games_img img{
+    width: 100%;
+}
+.info_text{
+    text-align: center;
+}
+.compax {
+    margin-bottom: 30px;
+}
+.compax_button {
+    float: right;
+    vertical-align: top;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ;
+    padding: 10px;
+}
+.compax_button:hover{
+    background-color: white;
+    color: black;
+}
+.compax_container{
+    box-shadow: 0 10px 20px black;
+    padding: 40px;
+}
+.compax_hr{
+    max-width: 60px;
+    margin: auto;
+    background-color: white;
+    border: none;
+    height: 3px;
+}    
+.compax_box{
+    background-color: aqua;
+    padding: 40px;
+    
+}
+.compax_text{
+
+}
+
+.form {
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px black;
+}
+.form_head {
+    position: relative;
+    background-color: rgb(117, 232, 232);
+    height: 70px;
+}
+.form_back {
+    background-color: white;
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-weight: 700;
+}
+.form_title {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.form_body {
+    padding: 40px;
+   
+}
+.form_box {
+    border: 2px solid white;
+    padding: 60px;
+    margin-bottom: 40px;
+}
+.form_input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-top: 30px;
+    outline: none;
+    padding: 10px;
+    color: white;
+}
+.form_class{
+    display: inline-block;
+    color: white;
+    
+}
+
+.form_white{
+    color: white;
+    margin: 15px;
+}
+.form_btn{
+    background-image: linear-gradient(45deg, aqua,blue);
+    padding: 15px;
+    margin: auto;
+    width: 300px;
+    font-weight: 700;
+    color: white;
+    display: block;
+}
+.form_label{
+    color: white;
+}
+.form_landing{
+    color: white;
+}
+.form_gender{
+    color: white;
+    margin-bottom: 30px;
+}
+.form_list {
+    margin: 30px 0;
+}
+.form_select {
+    color: black;
+}
+.form_message{
+    background-color: transparent;
+    width: 100%;
+    height: 200px;
+    border: 3px solid white;
+    resize: none;
+    padding: 30px;
+    outline: none;
+    color: white;
+}
+.form_message::placeholder{
+    color: whitesmoke;
+    
+    
+}

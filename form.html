@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" class="form">
+        <div class="form_head">
+            <a href="index.html" class="form_back"><</a>
+            <h1 class="form_title form_background">Заявка на вступление</h1>
+        </div>
+        <div class="form_body">
+            <fieldset class="form_box">
+                <legend class="form_landing">Ваш никнейм в реальной жизни :)</legend>
+                <input type="text" class="form_input" name="name" placeholder="Имя">
+                <input type="text" class="form_input" name="soorname" placeholder="Фамилия">
+            </fieldset>
+
+            <p class="form_gender">Ваш пол</p>
+            <input id="male"  type="radio" name="gender" >
+            <label for="male" class="form_class">Мужшина</label>
+            <input id="wemale" class="form_class" type="radio" name="gender" >
+            <label for="wemale" class="form_class">Женщина</label>
+            
+            <input id="rule"  type="checkbox" >
+            <label for="rule"  class="form_white">Мне есть 18</label>
+            
+            <div class="form_list">
+                <label class="form_class" for="select">Ваша дисцыплина</label>
+                <select class="form_select" name="select" id="select">
+                    <option selected value=""></option>
+                    <option value="CS:GO">CS:GO</option>
+                    <option  value="Dota2">Dota2</option>
+                    <option value="Apex legends">Apex legends</option>
+                </select>
+            </div>
+            <textarea class="form_message" placeholder="Дополнительная информация" name="Message"></textarea>
+            
+            <button type="submit" class="form_btn">Отправить заявку</button>
+        </div>
+    </form>
+</body>
+</html>
